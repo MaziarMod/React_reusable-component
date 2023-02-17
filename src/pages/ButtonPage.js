@@ -1,7 +1,7 @@
-import Button from './components/Button';
+import Button from '../components/Button';
 import { DiAndroid, DiApple, DiBugsense } from 'react-icons/di';
 
-const App = () => {
+const ButtonPage = () => {
   const handleEvent = () => {
     console.log(
       'You can chnage this handle event to any events that you want to use'
@@ -45,4 +45,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default ButtonPage;
